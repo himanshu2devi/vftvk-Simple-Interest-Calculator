@@ -1,5 +1,13 @@
 
+ function validations()
+{
+  if ( document.getElementById("principal").value <=0)
+   {
+    alert("Please enter positive number");
+     document.getElementById(principal).focus();
+   }
 
+}
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
