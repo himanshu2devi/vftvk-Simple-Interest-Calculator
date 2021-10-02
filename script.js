@@ -12,7 +12,7 @@ function compute()
  var interst = principal * years * rate /100;
 var year = new Date().getFullYear()+parseInt(years);
  amout=interest+principal;
-   if (principal <=0)
+   if ( document.getElementById("principal").value<=0)
    {
     alert("Please enter positive number");
      document.getElementById(principal).focus();
