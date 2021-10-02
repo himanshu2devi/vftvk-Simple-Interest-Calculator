@@ -19,6 +19,6 @@ function compute()
 var year = new Date().getFullYear()+parseInt(years);
  amount=interest+principal;
   
-document.getElementById("result").innerText="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+amount+",\<br\>in the year "+year+"\<br\>";
+document.getElementById("result").innerText="If you deposit "+principal+",at an interest rate of "+rate+"%,You will receive an amount of "+amount+",in the year "+year+"";
     
 }
