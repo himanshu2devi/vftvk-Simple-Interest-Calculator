@@ -1,12 +1,4 @@
- function validation()
-{
-  if ( document.getElementById("principal").value <=0)
-   {
-    alert("Please enter positive number");
-     document.getElementById(principal).focus();
-   }
 
-}
 
 function updateRate() 
 {
