@@ -1,9 +1,5 @@
 
- function validations()
-{
-  
 
-}
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
