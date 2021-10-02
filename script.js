@@ -1,11 +1,7 @@
 
  function validations()
 {
-  if ( document.getElementById("principal").value <=0)
-   {
-    alert("Please enter positive number");
-     document.getElementById(principal).focus();
-   }
+  
 
 }
 function updateRate() 
@@ -14,7 +10,13 @@ function updateRate()
     document.getElementById("rate_val").innerText=rateval;
 }
 function compute()
-{var principal = document.getElementById("principal").value;
+{
+ if ( document.getElementById("principal").value <=0)
+   {
+    alert("Please enter positive number");
+     document.getElementById(principal).focus();
+   }
+ var principal = document.getElementById("principal").value;
  var rate = document.getElementById("rate").value;
  var years = document.getElementById("years").value;
  var interest = principal * years * rate /100;
